@@ -10,6 +10,6 @@ public class Humain{
 		this.age = age;
 	}
 	public void detail(){
-		System.out.println("nom ="+nom+" prenom= "+prenom+" age= "+age);
+		System.out.println(toString());
 	}
 }
