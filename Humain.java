@@ -9,5 +9,7 @@ public class Humain{
 		this.prenom = prenom;
 		this.age = age;
 	}
-
+	public void detail(){
+		System.out.println("nom ="+nom+" prenom= "+prenom+" age= "+age);
+	}
 }
