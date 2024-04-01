@@ -12,4 +12,10 @@ public class Humain{
 	public void detail(){
 		System.out.println(toString());
 	}
+		public void manger(){
+		System.out.println("je mange");
+	}
+	public void boire(){
+		System.out.println("je bois");
+	}
 }
