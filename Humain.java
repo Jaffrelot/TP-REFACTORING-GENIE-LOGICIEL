@@ -18,4 +18,11 @@ public class Humain{
 	public void boire(){
 		System.out.println("je bois");
 	}
+	public String toString(){
+		return "nom: "+nom+", prenom:"+prenom+", age: "+age;
+	}
+
+	public void ami(Humain autreHumain, int dureeAmitie){
+		System.out.println(this.nom + " est ami avec "+autreHumain.nom+" depuis "+dureeAmitie+" jours");
+	}
 }
