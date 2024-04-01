@@ -25,4 +25,7 @@ public class Humain{
 	public void ami(Humain autreHumain, int dureeAmitie){
 		System.out.println(this.nom + " est ami avec "+autreHumain.nom+" depuis "+dureeAmitie+" jours");
 	}
+		public void ami(Humain autreHumain){
+		ami(autreHumain,100);
+	}
 }
